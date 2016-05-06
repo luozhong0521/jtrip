@@ -1,7 +1,7 @@
 {
   "name": "jclub",
   "version": "1.0.0",
-  "description": "this is jclub",
+  "description": "this is jclub, use vue,vue-router",
   "author": "baixiaosheng",
   "private": true,
   "scripts": {
