@@ -1,6 +1,6 @@
-# jclub
+# jtrip
 
-> this is jclub, use vue,vue-router.
+> this is jtrip, use vue,vue-router.
 
 ## Build Setup
 

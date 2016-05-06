@@ -1,7 +1,7 @@
 {
-  "name": "jclub",
+  "name": "jtrip",
   "version": "1.0.0",
-  "description": "this is jclub, use vue,vue-router",
+  "description": "this is jtrip, use vue,vue-router",
   "author": "baixiaosheng",
   "private": true,
   "scripts": {
