@@ -1,4 +1,4 @@
-// see http://vuejs-templates.github.io/webpack for documentation.
+// 打包/运行配置文件
 var path = require('path')
 
 module.exports = {
@@ -10,7 +10,7 @@ module.exports = {
     productionSourceMap: true
   },
   dev: {
-    assetsPublicPath:'/',
+    assetsPublicPath: '/',
     port: 80,
     proxyTable: {}
   }

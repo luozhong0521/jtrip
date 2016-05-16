@@ -1,7 +1,7 @@
 {
   "name": "jtrip",
   "version": "1.0.0",
-  "description": "this is jtrip, use vue,vue-router",
+  "description": "this is jtrip",
   "author": "baixiaosheng",
   "private": true,
   "scripts": {
@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "vue": "^1.0.21",
+    "vue-router": "^0.7.13",
+    "vue-resource": "^0.7.0",
     "babel-runtime": "^6.0.0"
   },
   "devDependencies": {

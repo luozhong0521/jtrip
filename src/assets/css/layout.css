@@ -1,0 +1,536 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Microsoft YaHei";
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #f0f0f0;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.icon-back {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background-image: url("../i/icon-back.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+
+.j-block {
+  display: block;
+}
+
+.j-margin-0 {
+  margin: 0;
+}
+
+.j-margin-bottom-0 {
+  margin-bottom: 0;
+}
+
+.j-margin-horizontal-xs {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.j-margin-top-sm {
+  margin-top: 1rem;
+}
+
+.j-margin-top-xs {
+  margin-top: 0.5rem;
+}
+
+.j-margin-left-sm {
+  margin-left: 1rem;
+}
+
+.j-margin-bottom-sm {
+  margin-bottom: 1rem;
+}
+
+.j-padding-sm {
+  padding: 1rem;
+}
+
+.j-padding-top-sm {
+  padding-top: 1rem;
+}
+
+.j-padding-bottom-sm {
+  padding-bottom: 1rem;
+}
+
+.j-padding-horizontal-sm {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.j-padding-top-xs {
+  padding-top: 0.5rem;
+}
+
+.j-padding-horizontal-xs {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.j-padding-vertical-sm {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.j-padding-vertical-xs {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.j-border-bottom {
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.j-bg-white {
+  background-color: #fff;
+}
+
+.j-header-fixed .j-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.j-footer-fixed .j-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.j-header-fixed .j-content {
+  top: 44px;
+}
+
+.j-footer-fixed .j-content {
+  bottom: 50px;
+}
+
+.j-content {
+  position: absolute;
+  overflow: auto;
+  top: 0;
+  bottom: 0;
+}
+
+.j-header {
+  width: 100%;
+  height: 44px;
+  background-color: #44bacc;
+  overflow: hidden;
+  z-index: 10000;
+}
+
+.j-header .j-title {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 44px;
+  text-align: center;
+  padding: 0 44px;
+}
+
+.j-header-left {
+  float: left;
+}
+
+.j-header-left:active {
+  background-color: #34ABBD;
+}
+
+.j-footer {
+  width: 100%;
+  display: block;
+}
+
+.j-footer .btn-block {
+  line-height: 50px;
+}
+
+.j-index {
+  text-align: center;
+  padding-top: 3.5rem;
+}
+
+.j-headimg {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.j-username {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #666;
+}
+
+.j-menu {
+  list-style: none;
+  margin: 0;
+  padding: 1rem 1.5rem 2.2rem;
+  overflow: hidden;
+}
+
+.j-menu li {
+  float: left;
+  width: 33.33%;
+}
+
+.j-menu li > a {
+  display: block;
+  position: relative;
+  padding-top: 4.8rem;
+  text-align: center;
+  color: #666;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.j-menu li > a:active {
+  background-color: #f0f0f0;
+}
+
+.j-menu-active:after, .j-menu-travels:after, .j-menu-club:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4.2rem;
+  top: 0.6rem;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 90%;
+}
+
+.j-menu-active:after {
+  background-image: url("../i/icon-activity.png");
+}
+
+.j-menu-travels:after {
+  background-image: url("../i/icon-travels.png");
+}
+
+.j-menu-club:after {
+  background-image: url("../i/icon-club.png");
+}
+
+.j-slide img {
+  width: 100%;
+}
+
+.j-list-header {
+  border-bottom: 1px solid #f3f3f3;
+  overflow: hidden;
+}
+
+.j-list-title {
+  padding-left: 2.2rem;
+  color: #333;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: auto 100%;
+}
+
+.j-star-red {
+  background-image: url("../i/icon-star-red.png");
+}
+
+.j-star-blue {
+  background-image: url("../i/icon-star-blue.png");
+}
+
+.j-list-more {
+  display: block;
+  float: right;
+  padding-right: 1.2rem;
+  margin-top: 0.6rem;
+  color: #999;
+  font-size: 1.2rem;
+  outline: none;
+  background-color: transparent;
+  background-image: url("../i/icon-right.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: auto 100%;
+}
+
+.j-list-content {
+  overflow: hidden;
+  zoom: 0;
+}
+
+.j-list-item {
+  overflow: hidden;
+  zoom: 0;
+  margin-top: 1rem;
+}
+
+.j-list-item:last-child {
+  margin-bottom: 1rem;
+}
+
+.j-list-top, .j-list-bottom {
+  display: block;
+  width: 100%;
+}
+
+.j-list-left {
+  width: 10rem;
+  float: left;
+}
+
+.j-list-right {
+  margin-left: 11rem;
+}
+
+.j-list-left img, .j-list-top img {
+  display: block;
+  width: 100%;
+}
+
+.j-list-name {
+  padding-top: 0.5rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 1.6rem;
+  color: #000;
+}
+
+.j-list-introduce, .j-list-info {
+  position: relative;
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.2;
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+
+.j-list-bottom .j-list-introduce {
+  min-height: 4rem;
+}
+
+.j-list-introduce-title {
+  line-height: 1.4;
+}
+
+.j-list-time {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #999;
+}
+
+.j-list-info-left, .j-list-info-right {
+  float: left;
+  color: #666;
+}
+
+.j-list-info-left {
+  width: 70%;
+}
+
+.j-list-info-right {
+  width: 30%;
+}
+
+.j-list-info-left img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.j-list-info-left span {
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+.j-list-info-right {
+  line-height: 3rem;
+  text-align: right;
+}
+
+.j-icon-head, .j-comment-icon-head {
+  margin: 0.5rem;
+  display: block;
+  float: left;
+}
+
+.j-icon-head img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.j-comment-icon-head img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.j-comment-content {
+  margin-left: 5rem;
+}
+
+.j-text-333 {
+  color: #333;
+}
+
+.j-text-666 {
+  color: #666;
+}
+
+.j-text-999 {
+  color: #999;
+}
+
+.j-text-user {
+  color: #44BACC;
+}
+
+.j-text-12 {
+  font-size: 1.2rem;
+}
+
+.j-text-13 {
+  font-size: 1.3rem;
+}
+
+.j-text-14 {
+  font-size: 1.4rem;
+}
+
+.j-text-15 {
+  font-size: 1.5rem;
+}
+
+.j-text-left {
+  text-align: left;
+}
+
+.j-text-center {
+  text-align: center;
+}
+
+.j-text-right {
+  text-align: right;
+}
+
+.j-text-16 {
+  font-size: 1.6rem;
+}
+
+.j-grid {
+  display: block;
+  overflow: hidden;
+}
+
+.j-grid .j-col-1,
+.j-grid .j-col-2,
+.j-grid .j-col-3,
+.j-grid .j-col-4,
+.j-grid .j-col-5,
+.j-grid .j-col-6,
+.j-grid .j-col-7,
+.j-grid .j-col-8,
+.j-grid .j-col-9,
+.j-grid .j-col-10 {
+  display: block;
+  float: left;
+}
+
+.j-grid .j-col-1 {
+  width: 10%;
+}
+
+.j-grid .j-col-2 {
+  width: 20%;
+}
+
+.j-grid .j-col-3 {
+  width: 30%;
+}
+
+.j-grid .j-col-4 {
+  width: 40%;
+}
+
+.j-grid .j-col-5 {
+  width: 50%;
+}
+
+.j-grid .j-col-6 {
+  width: 60%;
+}
+
+.j-grid .j-col-7 {
+  width: 70%;
+}
+
+.j-grid .j-col-8 {
+  width: 80%;
+}
+
+.j-grid .j-col-9 {
+  width: 90%;
+}
+
+.j-grid .j-col-10 {
+  width: 100%;
+}
+
+.j-left {
+  float: left;
+}
+
+.j-right {
+  float: right;
+}
+
+.btn {
+  display: block;
+  border: 0;
+  background-color: #44bacc;
+  font-family: "Microsoft YaHei";
+  color: #fff;
+  outline: none;
+}
+
+.btn-small {
+  padding: 0.2rem 0.8rem;
+  border-radius: 2px;
+}
+
+.btn-block {
+  display: block;
+}
